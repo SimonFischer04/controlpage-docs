@@ -1,3 +1,3 @@
 # controlpage-docs
 
-<WIP>
+WIP
