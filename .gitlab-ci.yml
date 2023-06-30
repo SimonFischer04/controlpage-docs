@@ -1,6 +1,6 @@
 stages:
   - lint
-  - pages
+  - deploy
 
 default:
   image: $DEFAULT_CI_IMAGE
