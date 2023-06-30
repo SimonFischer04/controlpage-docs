@@ -1,0 +1,14 @@
+stages:
+  - lint
+  - pages
+
+default:
+  image: $DEFAULT_CI_IMAGE
+  # All jobs are interruptable by default
+  interruptible: true
+
+variables:
+  DEFAULT_CI_IMAGE: "debian"
+
+include:
+  - local: .gitlab/ci/*.gitlab-ci.yml

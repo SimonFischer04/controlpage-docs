@@ -1,0 +1,16 @@
+{
+    "name": "controlpage-docs",
+    "version": "1.0.0",
+    "description": "stub npm config to provide some utility",
+    "author": "",
+    "license": "MIT",
+    "scripts": {
+        "start": "mkdocs serve",
+        "build": "mkdocs build",
+        "serve-build": "python3 -m http.server 4200",
+        "lint": "markdownlint-cli2 '**/*.md' '#node_modules' '#env'"
+    },
+    "devDependencies": {
+        "markdownlint-cli2": "^0.8.1"
+    }
+}
