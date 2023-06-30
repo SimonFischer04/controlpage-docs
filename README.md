@@ -40,6 +40,7 @@ This generates a static site into the `site` directory that can be served by any
 To check out the result you could also for example use pythons built-in web server by running `python3 -m http.server 4200` inside the `site` folder.
 
 ## Linting
+
 TODO
 
 ## ---WIP---
