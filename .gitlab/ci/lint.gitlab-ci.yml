@@ -1,0 +1,6 @@
+lint:
+  image: node:lts
+  stage: lint
+  script:
+    - npm install
+    - npm run lint

@@ -7,6 +7,10 @@
     "scripts": {
         "start": "mkdocs serve",
         "build": "mkdocs build",
-        "serve-build": "python3 -m http.server 4200"
+        "serve-build": "python3 -m http.server 4200",
+        "lint": "markdownlint-cli2 '**/*.md' '#node_modules' '#env'"
+    },
+    "devDependencies": {
+        "markdownlint-cli2": "^0.8.1"
     }
 }

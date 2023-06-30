@@ -1,11 +1,14 @@
-image: python:latest
-pages:
-  stage: deploy
-  script:
-    - pip install mkdocs-material
-    - mkdocs build --site-dir public
-  artifacts:
-    paths:
-      - public
-  rules:
-    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+stages:
+  - lint
+  - pages
+
+default:
+  image: $DEFAULT_CI_IMAGE
+  # All jobs are interruptable by default
+  interruptible: true
+
+variables:
+  DEFAULT_CI_IMAGE: "debian"
+
+include:
+  - local: .gitlab/ci/*.gitlab-ci.yml
