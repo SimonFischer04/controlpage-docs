@@ -8,4 +8,8 @@ If you know any macro pad like the Elgato Stream Deck, FreeDeck, Touch Portal, .
 
 ## Getting Started
 
-Continue here: [Installation](getting-started/installation.md). To get an overview of the project: features including screenshots, ... see: [Features](getting-started/features.md).
+Continue here: [Installation](getting-started/installation.md).
+
+To get an overview of the project: features including screenshots, ... see: [Features](getting-started/features.md).
+
+To get a peak at planned features see the [Roadmap](contribute/roadmap.md).

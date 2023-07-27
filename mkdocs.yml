@@ -45,6 +45,8 @@ nav:
     - Features: getting-started/features.md
     - Creating your first view: getting-started/create-view.md
     - Settings: getting-started/settings.md
-  - Roadmap: roadmap.md
+  - Contribute:
+    - Basics: contribute/basics.md
+    - Roadmap: contribute/roadmap.md
   - Advanced:
     - Setting up a Reverse Proxy: advanced/reverse-proxy.md
