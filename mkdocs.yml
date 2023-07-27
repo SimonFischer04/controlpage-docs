@@ -1,3 +1,50 @@
-site_name: My Docs
+site_name: ControlPage Documentation
 theme:
   name: material
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.footer
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.fischerserver.eu/controlpage
+
+copyright: Copyright &copy; 2020 - 2023 Simon Fischer and contributors (licensed under MIT)
+
+nav:
+  - Home: index.md
+  - FAQ: faq.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Features: getting-started/features.md
+    - Creating your first view: getting-started/create-view.md
+    - Settings: getting-started/settings.md
+  - Roadmap: roadmap.md
+  - Advanced:
+    - Setting up a Reverse Proxy: advanced/reverse-proxy.md
