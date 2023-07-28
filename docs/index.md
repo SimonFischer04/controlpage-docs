@@ -1,19 +1,21 @@
-# Welcome to MkDocs
+# ControlPage
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+ControlPage is a __Software__ Macro solution to efficiently control your applications.
 
-!Test!
+<figure markdown>
+  ![Desk setup with phone running ControlPage application](assets/Home.jpg){ loading=lazy }
+  ![screenshot of only the view shown on pc](assets/view-fullscreen.png){ loading=lazy style="display: none;"}
+  <figcaption>ControlPage in Action (click for fullscreen)</figcaption>
+</figure>
 
-## Commands
+## Introduction
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+If you know any macro pad like the Elgato Stream Deck, FreeDeck, Touch Portal, .... You already know the goal of this project. But why create yet another one? See the [FAQ](faq.md).
 
-## Project layout
+## Getting Started
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Continue here: [Installation](getting-started/installation.md).
+
+To get an overview of the project: features including screenshots, ... see: [Features](getting-started/features.md).
+
+To get a peak at planned features see the [Roadmap](contribute/roadmap.md).
