@@ -1,5 +1,13 @@
 # ControlPage-Docs
 
+## Canonical source
+
+I do development on my [personal GitLab instance](https://gitlab.fischerserver.eu/controlpage/controlpage-docs).
+
+But contributions are welcome on [Gitlab.com](https://gitlab.com/controlpage/controlpage-docs).
+
+Furthermore, this project is mirrored to [GitHub](https://github.com/SimonFischer04/controlpage-docs). But don't open any issues or pull requests there!
+
 ## Installation
 
 Install dependencies for doc.

@@ -35,21 +35,25 @@ From here there are two options:
 
 Clicking on a field in the edit section (top) allows configuring different properties for the field:
 
-- Content like: text (including color/alignment), background, ...
-- Action: configure what should happen when this field is pressed. More details here: [Features](features.md#actions)
-- ...
+  - Content like: text (including color/alignment), background, ...
+  - Action: configure what should happen when this field is pressed. More details here: [Features](features.md#actions)
+  - ...
 
 At the button you can see a preview how it will look like in [View-Mode](#view-mode).
 
 <figure markdown>
   ![basic example of editing a field](../assets/field-edit1.png){ loading=lazy }
-  ![screenshot of only the view shown on pc](../assets/field-edit1-editSectionOnly.png){ loading=lazy style="display: none;"}
+  ![edit section of a field](../assets/field-edit1-editSectionOnly.png){ loading=lazy style="display: none;"}
   <figcaption>Basic example of configuring a field to switch to another view on click.</figcaption>
 </figure>
 
+!!! Tip  
+
+    For creating background icons there are great tools like: [Stream Awesome](https://github.com/sebinside/StreamAwesome). (this may get native integration at some point ...)
+
 !!! Bug
 
-    There is currently an issue breaking creation of new row / column if the view is completly empty (no row and column exists). See: [Issue](https://gitlab.fischerserver.eu/controlpage/controlpage-frontend/-/issues/22).
+    There is currently an issue breaking creation of new row / column if the view is completely empty (no row and column exists). See: [Issue](https://gitlab.fischerserver.eu/controlpage/controlpage-frontend/-/issues/22).
 
     Workaround:
     ```sql

@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- [Docker](https://www.docker.com/) (including docker-compose)
+  - [Docker](https://www.docker.com/) (including docker-compose)
 
 ## Setting up the project
 
