@@ -1,14 +1,19 @@
 site_name: ControlPage Documentation
+repo_url: https://gitlab.com/controlpage/controlpage-docs
+edit_uri: -/edit/main/docs/
+repo_name: controlpage/controlpage-docs
+
 theme:
   name: material
-  palette: 
+  icon:
+    repo: fontawesome/brands/gitlab
 
+  palette: 
     # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
@@ -17,6 +22,10 @@ theme:
   
   features:
     - navigation.footer
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
 
 markdown_extensions:
   - pymdownx.tasklist:
@@ -29,6 +38,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
+
+plugins:
+  - glightbox
 
 extra:
   social:
@@ -42,9 +55,11 @@ nav:
   - FAQ: faq.md
   - Getting Started:
     - Installation: getting-started/installation.md
-    - Features: getting-started/features.md
+    - Terminology: getting-started/terminology.md
     - Creating your first view: getting-started/create-view.md
+    - Features: getting-started/features.md
     - Settings: getting-started/settings.md
+    - NodeCG-Integration: getting-started/nodecg-integration.md
   - Contribute:
     - Basics: contribute/basics.md
     - Roadmap: contribute/roadmap.md
