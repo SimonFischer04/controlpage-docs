@@ -81,10 +81,6 @@ The philosophy of this project centers around these three main principles:
     
         Actually briefly considered the idea of just making a nodecg bundle. But this seems to big for me to just stuff everythin into a bundle. And, despite nodecg-integration being encouradge (and some tooling provided) this project can also be used with anything else that can accept an HTTP Request.
 
-??? Question "Where to get help?"
-
-    For now this is just handled publicaly using Issues to the corresponding Gitlab Repositories: [https://gitlab.com/controlpage](https://gitlab.com/controlpage) (also for others to see if they have the same issue / question / ...). If it gets to much, this will likely change in the future.
-
 ??? Question "Canonical source"
 
     What is this "Canonical source" that you can find at the top of every repository in this project?
@@ -92,3 +88,9 @@ The philosophy of this project centers around these three main principles:
     - I do development on my [personal GitLab instance](https://gitlab.fischerserver.eu/controlpage).
     - To allow contributions this project (all repositories main branches) are (bi-directionally [in fact each instance doing a push-mirror]) synced to [Gitlab.com](https://gitlab.com/controlpage). Feel free to contribute there: open Issues, submit PRs, ... . For a guide see: [Contribution Guide](contribute/basics.md).
     - Furthermore, this project is mirrored to [GitHub](https://github.com/SimonFischer04). But don't open any issues or pull requests there! (Issues and PRs there will be ignored / just closed). So, as stated already: **Use [Gitlab.com](https://gitlab.com/controlpage) for this!** This is because Github does not offer (an easy) way for syncing.
+
+??? Question "Where to get help?"
+
+    For now this is just handled publicaly using Issues to the corresponding Gitlab Repositories: [https://gitlab.com/controlpage](https://gitlab.com/controlpage) (also for others to see if they have the same issue / question / ...). If it gets to much, this will likely change in the future.
+
+    Update: There is now also a matrix space: [https://matrix.to/#/#controlpage:matrix.org](https://matrix.to/#/#controlpage:matrix.org). There is also a "Support" channel for any questions.
