@@ -49,6 +49,14 @@ To check out the result you could also for example use pythons built-in web serv
 
 ## Linting
 
-TODO
+This project uses [markdownlint](https://github.com/DavidAnson/markdownlint) for linting.
 
-## ---WIP---
+It can be run either directly from the CLI using `npm run lint` (after installing the dependency using `npm install`) or integrated with your editor, see: [Related](https://github.com/DavidAnson/markdownlint#related). Furthermore, linting is automatically checked using CI on each PR / for each push.
+
+Some rules have been disabled:
+
+| #                                                                                | Rule             | Why |
+| -------------------------------------------------------------------------------- | ---------------- | --- |
+| [MD013](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md013) | Line length      | - |
+| [MD033](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md033) | Inline HTML      | Required when using [Images](https://squidfunk.github.io/mkdocs-material/reference/images/). |
+| [MD046](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md046) | Code block style | Interferes with [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/). |
