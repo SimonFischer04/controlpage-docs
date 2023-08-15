@@ -51,15 +51,6 @@ At the button you can see a preview how it will look like in [View-Mode](#view-m
 
     For creating background icons there are great tools like: [Stream Awesome](https://github.com/sebinside/StreamAwesome). (this may get native integration at some point ...)
 
-!!! Bug
-
-    There is currently an issue breaking creation of new row / column if the view is completely empty (no row and column exists). See: [Issue](https://gitlab.fischerserver.eu/controlpage/controlpage-frontend/-/issues/22).
-
-    Workaround:
-    ```sql
-    INSERT INTO `field` (`colspan`, `description`, `rowspan`, `title`, `x_pos`, `y_pos`, `action_id`, `background_id`, `view_id`, `title_id`) VALUES ('1', NULL, '1', NULL, '0', '0', NULL, NULL, '5', NULL);
-    ```
-
 !!! Info
 
     This part of the docs is still WIP.
