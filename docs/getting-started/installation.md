@@ -12,7 +12,7 @@ To get a basic setup up and running use the sample docker-compose file here: [do
 
     Basic samples for deploying it on kubernetes can also be found in the [releases repo](https://gitlab.fischerserver.eu/controlpage/controlpage-releases/-/tree/main/k8s), although this way of deploying is (currently) not updated.
 
-Just run the compose. Not further steps required. Everything (database, ...) is set up automagically by the compose.
+Just run the compose. No further steps required. Everything (database, ...) is set up automagically by the compose.
 
 ### Configuring settings
 
