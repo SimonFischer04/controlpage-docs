@@ -12,20 +12,7 @@ To get a basic setup up and running use the sample docker-compose file here: [do
 
     Basic samples for deploying it on kubernetes can also be found in the [releases repo](https://gitlab.fischerserver.eu/controlpage/controlpage-releases/-/tree/main/k8s), although this way of deploying is (currently) not updated.
 
-### Manually creating Database
-
-The default compose file exposed Adminer on port 8080. So go to ``http://<ip of docker host>:8080`` and login using the root password configured in the compose file. Then run this SQL script to create everything.
-
-```sql
-CREATE USER 'ControlPageUser'@'%' IDENTIFIED BY '6xovUH2QmUZooPTyYrpD9Js8fZRrMBrkqHzs4soRdP'; GRANT ALL PRIVILEGES ON `controlpage`.* TO 'ControlPageUser'@'%';
-CREATE DATABASE `controlpage`;
-```
-
-Then restart docker compose stack.
-
-!!! Note
-
-    this step will be automated in the future
+Just run the compose. Not further steps required. Everything (database, ...) is set up automagically by the compose.
 
 ### Configuring settings
 
